@@ -25,7 +25,7 @@ is called under a given interaction potential (Harmonic Oscillator) and then ```
 
 ### Time Dependent Schrödinger Equation (TDSE)
 
-![Schrodinger Equation](https://latex.codecogs.com/svg.latex?i\hbar\frac{\partial}{\partial%20t}\psi(\mathbf{r},t)=\left[-\frac{\hbar^2}{2m}\nabla^2+V(\mathbf{r})\right]\psi(\mathbf{r},t)) 
+![Schrodinger Equation](https://latex.codecogs.com/svg.latex?\color{white}i\hbar\frac{\partial}{\partial%20t}\psi(\mathbf{r},t)=\left[-\frac{\hbar^2}{2m}\nabla^2+V(\mathbf{r})\right]\psi(\mathbf{r},t)) 
 
 The Time Dependent Schrödinger Equation is solved using the Crank-Nicelson method. The Crank-Nicolsen method is used for when the solver is dealing with 1D and 2D. This method works by using the implicit and explicit finite-difference methods, making it unconditionally stable. It works by averaging the Hamiltonian’s action between the current and next time steps, leading to a linear system of equations that preserves the wavefunction’s norm and gives accurate time evolution.
 
