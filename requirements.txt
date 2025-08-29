@@ -1,0 +1,6 @@
+numpy 
+time 
+pyvista
+matplotlib
+imageio
+tqdm
