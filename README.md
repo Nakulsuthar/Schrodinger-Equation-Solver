@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## How it works
 ### Time Independent Schrödinger Equation (TISE)
 
-![Schrodinger Equation](https://latex.codecogs.com/svg.latex?\psi(\mathbf{r})=\left[-\frac{\hbar^2}{2m}\nabla^2+V(\mathbf{r})\right]\psi(\mathbf{r}))
+![Schrodinger Equation](https://latex.codecogs.com/svg.latex?\color{white}\psi(\mathbf{r})=\left[-\frac{\hbar^2}{2m}\nabla^2+V(\mathbf{r})\right]\psi(\mathbf{r}))
 
 The Time Independent Schrödinger Equation Solver works by building the hamiltonian
 on a discrete grid using sparse matrices: the kinetic term from finite-difference Laplacians, and the potential from user-defined functions. It then uses efficient eigensolvers from scipy library to compute energies and wavefunctions, making it possible to simulate a wide range of quantum systems in 1D, 2D, and 3D.
