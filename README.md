@@ -5,7 +5,7 @@ This project aims to solve the time independent and time dependent Schrödinger 
 ## Installation 
 Clone this repository and install dependencies:
 ```
-git clone https://github.com/Nakulsuthar/Schrödinger-Equation-Solver.git
+git clone https://github.com/Nakulsuthar/Schrodinger-Equation-Solver.git
 cd Schrödinger Equation Solver
 pip install -r requirements.txt
 ```
